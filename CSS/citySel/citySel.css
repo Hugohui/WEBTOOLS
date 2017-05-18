@@ -1,0 +1,33 @@
+﻿/*cityLayer*/
+a.closeCom{ display:block; width:20px; height:20px; text-indent:-9999px; background:url(images/icon_close.png) no-repeat; -moz-transition:none; transition:background-position 0s;}
+a:hover.closeCom{ background-position:-20px 0;}
+.comSearch{ height:25px; border-radius:3px; box-shadow:0 1px 2px #d2d2d2; border:1px solid #d2d2d2; background:url(images/bg_repeat.png) repeat-x 0 -205px;}
+.comSearch .inp{ float:left; height:25px; line-height:25px; padding-left:3px;color:#c0c0c0; }
+.comSearch .bot,.comSearch .botOver{ float:right; width:15px; height:15px; background:url(images/icon_search.png) no-repeat; cursor:pointer; margin:5px 5px 0 0; overflow:hidden; -moz-transition:none; transition:background-position 0s;}
+.comSearch .botOver{ background-position:-15px 0;}
+.cityLayer{ position:absolute; background:#f8f8f8; border:1px solid #fff; border:1px solid #cdcdcd\9; border-radius:3px; box-shadow:0 1px 5px rgba(0,0,0,0.4); font-size:12px;}
+.cityLayer a.closeCom{ position:absolute; top:-10px; right:-6px;}
+.cityLayer .left{ float:left;}
+.cityLayer .right{ float:right;}
+
+/*cityListLayer*/
+.cityListLayer{ padding:5px 10px; font-size:12px;}
+.cityListLayer .hotCity,.cityListLayer .line,.cityListLayer .searchCity{ padding:8px 5px;}
+.cityListLayer .cityList a,.cityListLayer .hotCity a,.cityListLayer .line a{ padding:2px 3px; color:#0078b6; margin-right:5px; display:inline-block;}
+.cityListLayer .cityList a:hover,.cityListLayer .hotCity a:hover,.cityListLayer .line a:hover{ color:#219bd0;}
+.cityListLayer .cityList a.selected,.cityListLayer .hotCity a.selected{ background:#fcedb1;}
+.cityListLayer .line{ border-bottom:1px solid #dcdcdc; box-shadow:0 1px 0 #fff;}
+.cityListLayer .searchCity{ background:#f5f5f5;}
+.cityListLayer .searchCity a{ display:block; float:left; height:22px; border-radius:3px; border:1px solid #aaa; background-image:-moz-linear-gradient(top,#fafafa,#e6e6e6); background-image:-webkit-gradient(linear,0% 0%, 0% 100%, from(#fafafa), to(#e6e6e6)); background:url(images/bg_repeat.png) repeat-x 0 -230px\9; padding:0 5px; color:#444; margin:3px 0 0 0;}
+.cityListLayer .searchCity a.bl{ border-radius:3px 0 0 3px; border-right:none;}
+.cityListLayer .searchCity a.br{ border-radius:0 3px 3px 0;}
+.cityListLayer .searchCity a.now{ background:#e6e6e6; font-weight:700;}
+.cityListLayer span{ margin-right:10px;}
+.cityListLayer h2,.cityListLayer h3,.cityList td,.cityListLayer .comSearch input{ font-size:12px;}
+.cityListLayer h2,.cityListLayer h3{ font-weight:700; word-break:keep-all; white-space:nowrap;}
+.cityListLayer table td{ padding:6px 8px 6px 0;}
+.cityListLayer .cityList{ height:200px; overflow:auto;}
+.cityListLayer .cityList b a,.cityListLayer .cityList b a:hover{ font-size:24px; color:#ccc;}
+.cityListLayer .cityList h3 a,.cityListLayer .cityList h3 a:hover{ cursor:default; color:#888;}
+.cityListLayer .comSearch{ width:160px; margin:1px 0 3px 0;}
+.cityListLayer .comSearch input.inp{ background:url(images/bg_repeat.png) repeat-x 0 -205px; border-radius:3px 0 0 3px;}
